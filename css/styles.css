@@ -136,7 +136,24 @@ nav ul li a:hover {
 
 /* Hero */
 
+#hero {
+   background: #e7c04f url("../images/bg-tile-yellow.gif");
+   margin-top: 15px;
+}
 
+#hero .container {
+      position: relative;
+}
+
+p.large-ribbon {
+   height: 190px;
+   width: 150px;
+   background: url("../images/fresh-whole-ingredients.png") no-repeat;
+   text-indent: -9999px;
+   position: absolute;
+   top: -23px;
+   right: -30px;
+}
 
 /* The Whole Story */
 
