@@ -92,6 +92,47 @@ hr {
 
 /* Header */
 
+header nav {
+   text-align: center;
+}
+
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: block;
+   line-height: 141px;
+}
+
+nav ul li {
+   display: inline-block;
+   margin: 0 20px;
+}
+
+nav ul li a:link {
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+nav ul li a:hover {
+   color: #4b2707;
+   padding-top: 20px;
+   background: url("../images/tiny-donut.png") top center no-repeat;
+}
+
+#logo a {
+   display: block;
+   width: 292px;
+   height: 141px;
+   background: url("../images/logo.png") center center no-repeat;
+   text-indent: -9999px;
+}
+
+#logo a:hover {
+   padding: 0;
+   background: url("../images/logo-hover.png") center center no-repeat;
+}
 
 /* Hero */
 
